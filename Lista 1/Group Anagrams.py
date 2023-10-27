@@ -7,4 +7,4 @@ class Solution:
       for c in s:
         counter[ord(c) - ord("a")] += 1
       anagrams[tuple(counter)].append(s)
-    return anagrams.values()
+    return anagrams.values() 
